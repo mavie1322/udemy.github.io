@@ -1,0 +1,37 @@
+body{
+	background: url(pic/header.jpg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+p {
+	text-transform: uppercase;
+	font-family: sans-serif;
+	color: white;
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 180px 375px;
+}
+
+
+.button {
+	background-color: #AA5439;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 50px; 
+	width: 130px;
+	height: 30px;
+	border: none;
+	position: relative;
+	margin-left: 44%;
+	transition: all 1s;
+	cursor: pointer;
+}
+
+.button:hover {
+transform: scale(1.1);
+
+}
